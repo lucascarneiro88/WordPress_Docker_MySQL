@@ -73,7 +73,7 @@ http://localhost:8000
 
 Você verá a tela de instalação do WordPress. Complete a instalação fornecendo o nome do site, o nome de usuário, a senha e o e-mail.
 
-4. Acessando o Banco de Dados MySQL
+## 3. Acessando o Banco de Dados MySQL
 Acessando o MySQL via Docker
 No terminal, execute o seguinte comando para acessar o MySQL dentro do contêiner:
 
@@ -108,6 +108,42 @@ VALUES ('novo_usuario', MD5('senha123'), 'novo_usuario@example.com', NOW());
 
 
 ![imagem wordpress](img/imagem-worpress-usuario.png)
+
+
+
+## 4. Visualizando o Usuário no WordPress
+Após realizar a inserção do novo usuário diretamente no banco de dados MySQL via terminal, você pode visualizar a criação do usuário acessando a interface administrativa do WordPress.
+
+Acesse o painel de administração do WordPress através do endereço:
+```bash
+http://localhost:8000/wp-admin
+
+```
+No painel, vá até a seção Usuários e verá o novo usuário que foi inserido no banco de dados. Ele já estará disponível para login ou para ser modificado conforme necessário.
+
+
+
+## 5. O Que Pode Ser Feito A Seguír?
+Este estudo prático configura apenas a base para um ambiente de desenvolvimento local, mas as possibilidades são muitas:
+
+Configuração de plugins: Instalar e configurar plugins no WordPress para expandir as funcionalidades do site.
+Integração com AWS: Migrar essa configuração para a AWS, utilizando serviços como EC2, RDS e S3 para escalar a aplicação.
+Criação de temas personalizados: Desenvolver temas personalizados para o WordPress e testar localmente no ambiente Docker.
+Testes de performance: Realizar testes de desempenho no banco de dados MySQL para otimizar consultas e melhorar o tempo de resposta do site.
+Com isso, é possível expandir a configuração para uma aplicação mais robusta e integrada à nuvem, utilizando as ferramentas que você já configurou localmente.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
