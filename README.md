@@ -86,6 +86,8 @@ No terminal, execute o seguinte comando para acessar o MySQL dentro do contêine
 Quando solicitado, digite a senha que foi configurada (senha).
 
 Visualizando Bancos de Dados
+
+
 Após acessar o MySQL, você pode listar os bancos de dados com o comando:
 
   ```bash
@@ -112,6 +114,8 @@ VALUES ('novo_usuario', MD5('senha123'), 'novo_usuario@example.com', NOW());
 
 
 ## 4. Visualizando o Usuário no WordPress
+
+
 Após realizar a inserção do novo usuário diretamente no banco de dados MySQL via terminal, você pode visualizar a criação do usuário acessando a interface administrativa do WordPress.
 
 Acesse o painel de administração do WordPress através do endereço:
