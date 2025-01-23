@@ -130,11 +130,18 @@ No painel, vá até a seção Usuários e verá o novo usuário que foi inserido
 ## 5. O Que Pode Ser Feito A Seguír?
 Este estudo prático configura apenas a base para um ambiente de desenvolvimento local, mas as possibilidades são muitas:
 
-Configuração de plugins: Instalar e configurar plugins no WordPress para expandir as funcionalidades do site.
-Integração com AWS: Migrar essa configuração para a AWS, utilizando serviços como EC2, RDS e S3 para escalar a aplicação.
-Criação de temas personalizados: Desenvolver temas personalizados para o WordPress e testar localmente no ambiente Docker.
-Testes de performance: Realizar testes de desempenho no banco de dados MySQL para otimizar consultas e melhorar o tempo de resposta do site.
-Com isso, é possível expandir a configuração para uma aplicação mais robusta e integrada à nuvem, utilizando as ferramentas que você já configurou localmente.
+>**Configuração de plugins:** Instalar e configurar plugins no WordPress para expandir as funcionalidades do site.
+
+>>**Integração com AWS:** Migrar essa configuração para a AWS, utilizando serviços como EC2, RDS e S3 para escalar a aplicação.
+
+
+>>>**Criação de temas personalizados:** Desenvolver temas personalizados para o WordPress e testar localmente no ambiente Docker.
+
+
+>>>>**Testes de performance:** Realizar testes de desempenho no banco de dados MySQL para otimizar consultas e melhorar o tempo de resposta do site.
+
+
+Com isso, é possível expandir a configuração para uma aplicação mais robusta e integrada à nuvem, utilizando as ferramentas que foram configuradas  localmente.
 
 
 
